@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ca">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/styles.css">
+        <title>Guardar les cookies</title>
+    </head>
+    <body>
+        <div id="container">
+            <label for="">Nom</label>
+            <input type="text" name="" id="nom">
+            <label for="">Cognom</label>
+            <input type="text" name="" id="cognom">
+            <label for="">Usuari</label>
+            <input type="text" name="" id="username">
+            <label for="">Contrassenya</label>
+            <input type="password" name="" id="passw1">
+            <label for="">Repeteix la contrassenya</label>
+            <input type="password" name="" id="passw2">
+            <button onclick="validarUsuari()">Comprovar</button>
+            <div id="btns">
+                <button onclick="guardar()">Guardar dades</button>
+                <button onclick="recuperar()" id="btn">Recuperar dades</button>
+                <button onclick="esborrar()">Esborrar dades</button>
+            </div>
+        </div>
+        <script src="js/cookies.js" type="text/javascript"></script>
+    </body>
+</html>

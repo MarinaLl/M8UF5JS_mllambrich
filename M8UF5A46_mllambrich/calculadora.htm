@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ca">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/styles.css">
+        <title>Calculadora</title>
+    </head>
+    <body>
+        <div id="container">
+            <div class="section">
+                <input type="text" id="textfield" class="btn-primary">
+                <button type="button" class="btn btn-primary" onclick="reset()" id="c">C</button>
+            </div>
+            <div class="section">
+                <button type="button" class="btn btn-primary" onclick="calcula('7')">7</button>
+                <button type="button" class="btn btn-primary"  onclick="calcula('8')">8</button>
+                <button type="button" class="btn btn-primary" onclick="calcula('9')">9</button>
+                <button type="button" class="btn btn-primary" onclick="calcula('/')">/</button>
+            </div>
+            <div class="section">
+                <button type="button" class="btn btn-primary" onclick="calcula('4')">4</button>
+                <button type="button" class="btn btn-primary" onclick="calcula('5')">5</button>
+                <button type="button" class="btn btn-primary" onclick="calcula('6')">6</button>
+                <button type="button" class="btn btn-primary" onclick="calcula('*')">X</button>
+            </div>
+            <div class="section">
+                <button type="button" class="btn btn-primary" onclick="calcula('1')">1</button>
+                <button type="button" class="btn btn-primary" onclick="calcula('2')">2</button>
+                <button type="button" class="btn btn-primary" onclick="calcula('3')">3</button>
+                <button type="button" class="btn btn-primary" onclick="calcula('-')">-</button>
+            </div>
+            <div class="section">
+                <button type="button" class="btn btn-primary" onclick="calcula('0')">0</button>
+                <button type="button" class="btn btn-primary" onclick="calcula(',')">,</button>
+                <button type="button" class="btn btn-primary" onclick="resultado()">=</button>
+                <button type="button" class="btn btn-primary" onclick="calcula('+')">+</button>
+            </div>
+        </div>
+        <script src="js/calculadora.js" type="text/javascript"></script>
+    </body>
+</html>

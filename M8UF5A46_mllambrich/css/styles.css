@@ -1,0 +1,31 @@
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#container {
+  width: fit-content;
+  background-color: #cfcfcf;
+  padding: 25px;
+  border-radius: 15px;
+}
+.section {
+  margin: 5px 0;
+}
+.btn {
+  width: 70px;
+  height: 70px;
+  font-size: 32px;
+}
+#c {
+  margin-top: -15px;
+}
+input {
+  width: 220px;
+  height: 70px;
+  border-radius: 5px;
+  border: none;
+  font-size: 28px;
+}
